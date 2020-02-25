@@ -1,19 +1,15 @@
-.input-name,
-.input-age,
-.input-date,
-.input-agreement,
-.input-password,
-.input-color,
-.input-sleeptime,
-.input-cars,
-.input-rate,
-.input-recommend {
-  margin-top: 10px;
-}
-
 .information,
 .registration,
 .personal-info,
 .addition {
   margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+label:first-of-type {
+  margin-top: 0;
 }
